@@ -1,0 +1,4 @@
+DB_ROOT_PASSWORD=generatepassword
+DB_NAME=wordpress
+DB_USER=userone
+DB_USER_PASSWORD=useronepassword
