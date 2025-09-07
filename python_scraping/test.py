@@ -1,11 +1,11 @@
 from urllib.request import urlopen
 
-# Step 1: Page fetch karna
+#Page fetch
 url = "https://quotes.toscrape.com/tag/books/"
 response = urlopen(url)
 html = response.read().decode("utf-8")
 
-# Step 2: Line by line HTML split
+# Line by line HTML split
 lines = html.split("\n")
 
 print("=== Extracted Data from Quotes Website ===")
